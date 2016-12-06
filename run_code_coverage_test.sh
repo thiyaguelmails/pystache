@@ -7,7 +7,4 @@ rm -rf coverage.xml coverage reports
 python -m coverage run test.py
 
 python -m coverage xml -o coverage.xml
-# python -m coverage html -d coverage
-
-mkdir reports
-cobertura-clover-transform coverage.xml > reports/clover.xml
+python -m coverage html -d coverage
