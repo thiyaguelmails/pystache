@@ -20,7 +20,7 @@ class TestSimple(unittest.TestCase, AssertStringMixin):
         view.template = '{{#foo}}{{thing1}} and {{thing2}} and {{outer_thing}}{{/foo}}{{^foo}}Not foo!{{/foo}}'
 
         actual = renderer.render(view)
-        self.assertString(actual, u"one and foo and two")
+        self.assertString(actual, u"one and foo and two0")
 
     def test_looping_and_negation_context(self):
         template = '{{#item}}{{header}}: {{name}} {{/item}}{{^item}} Shouldnt see me{{/item}}'
