@@ -4,12 +4,6 @@
 Pystache
 ========
 
-.. figure:: http://defunkt.github.com/pystache/images/logo_phillips.png
-   :alt: mustachioed, monocled snake by David Phillips
-
-.. figure:: https://secure.travis-ci.org/defunkt/pystache.png
-   :alt: Travis CI current build status
-
 `Pystache <http://defunkt.github.com/pystache>`_ is a Python
 implementation of `Mustache <http://mustache.github.com/>`_. Mustache is
 a framework-agnostic, logic-free templating system inspired by
