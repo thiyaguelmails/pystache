@@ -2,11 +2,12 @@ export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages:/usr/local/lib/py
 
 . ~/.virtualenvs/python2.7/bin/activate
 
-rm -rf coverage.xml coverage clover.xml
+rm -rf coverage.xml coverage reports
 # PYTHONPATH=. python -m coverage run test.py
 python -m coverage run test.py
 
 python -m coverage xml -o coverage.xml
 # python -m coverage html -d coverage
 
+mkdir reports
 cobertura-clover-transform coverage.xml > reports/clover.xml
