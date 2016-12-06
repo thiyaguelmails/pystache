@@ -9,4 +9,4 @@ python -m coverage run test.py
 python -m coverage xml -o coverage.xml
 # python -m coverage html -d coverage
 
-cobertura-clover-transform coverage.xml > clover.xml
+cobertura-clover-transform coverage.xml > reports/clover.xml
