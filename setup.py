@@ -112,7 +112,7 @@ else:
     setup = dist.setup
 
 
-VERSION = '0.5.3'  # Also change in pystache/__init__.py.
+VERSION = '0.0.1'  # Also change in pystache/__init__.py.
 
 FILE_ENCODING = 'utf-8'
 
@@ -383,13 +383,13 @@ def main(sys_argv):
     setup(name='pystache',
           version=VERSION,
           license='MIT',
-          description='Mustache for Python',
+          description='Python Sample',
           long_description=long_description,
-          author='Chris Wanstrath',
-          author_email='chris@ozmm.org',
-          maintainer='Chris Jerdonek',
-          maintainer_email='chris.jerdonek@gmail.com',
-          url='http://github.com/defunkt/pystache',
+          author='Thiyagu Loganathan',
+          author_email='thiyaguelmails@gmail.com',
+          maintainer='Thiyagu Loganathan',
+          maintainer_email='thiyaguelmails@gmail.com',
+          url='http://github.com/tloganathan/pystache',
           install_requires=INSTALL_REQUIRES,
           packages=PACKAGES,
           package_data = {
