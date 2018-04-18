@@ -6,7 +6,9 @@ export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages:/usr/local/lib/py
 
 rm -rf pep8.log pyflakes.log python_tests_xml
 
-PYTHONPATH=. python -m coverage run test.py
+#PYTHONPATH=. python -m coverage run test.py
+
+python -m coverage run test.py
 
 python -m coverage xml -o coverage.xml
 python -m coverage html -d coverage
